@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class Aplicacion2 {
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null, "Bienvenidos al Juego ADININA EL NUMERO :D");
+        JOptionPane.showMessageDialog(null, "Bienvenidos al Juego ADIVINA EL NUMERO :D");
         String[] menus = {"Juego Adivina Número", "Juego Adivina Par", "Juego Adivina Impar"};
         int opcion = JOptionPane.showOptionDialog(null, "elige un juego", "cliquea el juego", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, menus, menus[0]);
         switch (opcion) {
